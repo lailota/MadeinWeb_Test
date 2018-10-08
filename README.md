@@ -11,7 +11,7 @@ Desenvolver uma aplicação Mobile
 - Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
 - Cores livres, imagens livres
 - Gitflow
-- Layout mobile: [clique aqui](https://projects.invisionapp.com/share/WKD0CYIRG#/screens/248337735_iPhone_7)
+- Layout mobile: [clique aqui](https://invis.io/KUOGOG2SRXH#/324366013_01_PESQUISAR)
 - Você pode baixar as specs do projeto  [clicando aqui](https://drive.google.com/open?id=0B6TTk9-0XqYXVWFER19zZHotbkE).
 * A pasta "Teste_made_mobile_specs" contém um arquivo "index.html", que pode ser usado para verificar as propriedades de cada elemento do layout. As imagens em png (Logo e ícone de voltar) podem ser baixadas, ao clicar nas imagens, é possível acessar o arquivo .png do lado direito ou através da segunda aba do canto superior esquerdo.
 
