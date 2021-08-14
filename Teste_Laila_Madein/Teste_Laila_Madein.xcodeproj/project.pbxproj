@@ -21,7 +21,7 @@
 		C94F407F26C8088700AD2B97 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F407E26C8088700AD2B97 /* View+Extension.swift */; };
 		C94F408126C80B3800AD2B97 /* apiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = C94F408026C80B3800AD2B97 /* apiKey.plist */; };
 		C94F408326C80B8400AD2B97 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408226C80B8400AD2B97 /* ApiKey.swift */; };
-		C94F408526C80E0400AD2B97 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408426C80E0400AD2B97 /* Alert.swift */; };
+		C94F408526C80E0400AD2B97 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408426C80E0400AD2B97 /* Alert+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		C94F407E26C8088700AD2B97 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		C94F408026C80B3800AD2B97 /* apiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apiKey.plist; sourceTree = "<group>"; };
 		C94F408226C80B8400AD2B97 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
-		C94F408426C80E0400AD2B97 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C94F408426C80E0400AD2B97 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,24 +74,64 @@
 		C94F405F26C6DC4B00AD2B97 /* Teste_Laila_Madein */ = {
 			isa = PBXGroup;
 			children = (
+				C94F408A26C810D100AD2B97 /* Extension */,
 				C94F406026C6DC4B00AD2B97 /* AppDelegate.swift */,
 				C94F406226C6DC4B00AD2B97 /* SceneDelegate.swift */,
-				C94F406426C6DC4B00AD2B97 /* MainVC.swift */,
-				C94F407426C6EA6500AD2B97 /* SearchVC.swift */,
+				C94F408826C8105800AD2B97 /* Model */,
+				C94F408626C80FCE00AD2B97 /* View */,
+				C94F408926C8109A00AD2B97 /* Controller */,
 				C94F406626C6DC4B00AD2B97 /* Main.storyboard */,
 				C94F406926C6DC4F00AD2B97 /* Assets.xcassets */,
 				C94F406B26C6DC4F00AD2B97 /* LaunchScreen.storyboard */,
 				C94F406E26C6DC4F00AD2B97 /* Info.plist */,
-				C94F407626C6FEDE00AD2B97 /* Video.swift */,
-				C94F407826C6FF3D00AD2B97 /* MainController.swift */,
-				C94F407A26C7097F00AD2B97 /* VideoTableViewCell.swift */,
-				C94F407B26C7097F00AD2B97 /* VideoTableViewCell.xib */,
-				C94F407E26C8088700AD2B97 /* View+Extension.swift */,
 				C94F408026C80B3800AD2B97 /* apiKey.plist */,
 				C94F408226C80B8400AD2B97 /* ApiKey.swift */,
-				C94F408426C80E0400AD2B97 /* Alert.swift */,
 			);
 			path = Teste_Laila_Madein;
+			sourceTree = "<group>";
+		};
+		C94F408626C80FCE00AD2B97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C94F406426C6DC4B00AD2B97 /* MainVC.swift */,
+				C94F407426C6EA6500AD2B97 /* SearchVC.swift */,
+				C94F408726C80FFB00AD2B97 /* CustomCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C94F408726C80FFB00AD2B97 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				C94F407A26C7097F00AD2B97 /* VideoTableViewCell.swift */,
+				C94F407B26C7097F00AD2B97 /* VideoTableViewCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		C94F408826C8105800AD2B97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C94F407626C6FEDE00AD2B97 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C94F408926C8109A00AD2B97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C94F407826C6FF3D00AD2B97 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C94F408A26C810D100AD2B97 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C94F407E26C8088700AD2B97 /* View+Extension.swift */,
+				C94F408426C80E0400AD2B97 /* Alert+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +214,7 @@
 				C94F406326C6DC4B00AD2B97 /* SceneDelegate.swift in Sources */,
 				C94F407926C6FF3D00AD2B97 /* MainController.swift in Sources */,
 				C94F408326C80B8400AD2B97 /* ApiKey.swift in Sources */,
-				C94F408526C80E0400AD2B97 /* Alert.swift in Sources */,
+				C94F408526C80E0400AD2B97 /* Alert+Extension.swift in Sources */,
 				C94F407726C6FEDE00AD2B97 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

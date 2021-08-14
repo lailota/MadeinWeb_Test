@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainVC: UIViewController, UIGestureRecognizerDelegate {
+class MainVC: UIViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
