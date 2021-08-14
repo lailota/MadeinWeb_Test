@@ -13,16 +13,18 @@ class MainVC: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var searchButton: UIButton!
     
     private var controller: MainController = MainController()
+    private var alert: Alert?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.searchTextField.delegate = self
+        self.alert = Alert(viewController: self)
     }
     
     
     @IBAction func searchButtonTapped(_ sender: UIButton) {
-        indicatorAlert()
+        alert?.indicatorAlert()
         
         self.dismiss(animated: true) {
             self.performSegue(withIdentifier: "goToSearchVC", sender: self)
@@ -44,20 +46,6 @@ class MainVC: UIViewController, UIGestureRecognizerDelegate {
         self.navigationController?.navigationBar.isHidden = true
     }
     
-    
-    func indicatorAlert() {
-        let alert = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
-        
-        let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
-        loadingIndicator.hidesWhenStopped = true
-        loadingIndicator.style = UIActivityIndicatorView.Style.medium
-        loadingIndicator.startAnimating();
-        
-        alert.view.addSubview(loadingIndicator)
-        present(alert, animated: true) {
-            sleep(2)
-        }
-    }
 }
 
 
