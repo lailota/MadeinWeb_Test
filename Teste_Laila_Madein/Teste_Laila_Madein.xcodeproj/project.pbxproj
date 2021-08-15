@@ -24,9 +24,22 @@
 		C94F408526C80E0400AD2B97 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408426C80E0400AD2B97 /* Alert+Extension.swift */; };
 		C94F408C26C81F8700AD2B97 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408B26C81F8600AD2B97 /* DetailVC.swift */; };
 		C94F408E26C83F4800AD2B97 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408D26C83F4800AD2B97 /* CacheManager.swift */; };
-		C94F409126C840B800AD2B97 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F409026C840B800AD2B97 /* WebKit.framework */; };
 		C94F409326C857C300AD2B97 /* SelectedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F409226C857C300AD2B97 /* SelectedVideo.swift */; };
+		C94F409B26C98F1A00AD2B97 /* MainVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F409A26C98F1A00AD2B97 /* MainVCTests.swift */; };
+		C94F40A326C9953C00AD2B97 /* SearchVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F40A226C9953C00AD2B97 /* SearchVCTests.swift */; };
+		C94F40A526C9990E00AD2B97 /* DetailVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F40A426C9990E00AD2B97 /* DetailVCTests.swift */; };
+		C94F40A926C99B6900AD2B97 /* VideoTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F40A826C99B6900AD2B97 /* VideoTableViewCellTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94F409D26C98F1A00AD2B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94F405526C6DC4B00AD2B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94F405C26C6DC4B00AD2B97;
+			remoteInfo = Teste_Laila_Madein;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C94F405D26C6DC4B00AD2B97 /* Teste_Laila_Madein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste_Laila_Madein.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +63,12 @@
 		C94F408D26C83F4800AD2B97 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		C94F409026C840B800AD2B97 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C94F409226C857C300AD2B97 /* SelectedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedVideo.swift; sourceTree = "<group>"; };
+		C94F409826C98F1A00AD2B97 /* Teste_Laila_MadeinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Teste_Laila_MadeinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F409A26C98F1A00AD2B97 /* MainVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCTests.swift; sourceTree = "<group>"; };
+		C94F409C26C98F1A00AD2B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94F40A226C9953C00AD2B97 /* SearchVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVCTests.swift; sourceTree = "<group>"; };
+		C94F40A426C9990E00AD2B97 /* DetailVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVCTests.swift; sourceTree = "<group>"; };
+		C94F40A826C99B6900AD2B97 /* VideoTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCellTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C94F409126C840B800AD2B97 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F409526C98F1A00AD2B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C94F405F26C6DC4B00AD2B97 /* Teste_Laila_Madein */,
+				C94F409926C98F1A00AD2B97 /* Teste_Laila_MadeinTests */,
 				C94F405E26C6DC4B00AD2B97 /* Products */,
 				C94F408F26C840B700AD2B97 /* Frameworks */,
 			);
@@ -77,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C94F405D26C6DC4B00AD2B97 /* Teste_Laila_Madein.app */,
+				C94F409826C98F1A00AD2B97 /* Teste_Laila_MadeinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +182,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C94F409926C98F1A00AD2B97 /* Teste_Laila_MadeinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C94F40A626C99B0900AD2B97 /* View */,
+				C94F409C26C98F1A00AD2B97 /* Info.plist */,
+			);
+			path = Teste_Laila_MadeinTests;
+			sourceTree = "<group>";
+		};
+		C94F40A626C99B0900AD2B97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C94F409A26C98F1A00AD2B97 /* MainVCTests.swift */,
+				C94F40A226C9953C00AD2B97 /* SearchVCTests.swift */,
+				C94F40A426C9990E00AD2B97 /* DetailVCTests.swift */,
+				C94F40A726C99B2200AD2B97 /* CustomCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C94F40A726C99B2200AD2B97 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				C94F40A826C99B6900AD2B97 /* VideoTableViewCellTests.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +230,24 @@
 			productReference = C94F405D26C6DC4B00AD2B97 /* Teste_Laila_Madein.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C94F409726C98F1A00AD2B97 /* Teste_Laila_MadeinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F40A126C98F1A00AD2B97 /* Build configuration list for PBXNativeTarget "Teste_Laila_MadeinTests" */;
+			buildPhases = (
+				C94F409426C98F1A00AD2B97 /* Sources */,
+				C94F409526C98F1A00AD2B97 /* Frameworks */,
+				C94F409626C98F1A00AD2B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94F409E26C98F1A00AD2B97 /* PBXTargetDependency */,
+			);
+			name = Teste_Laila_MadeinTests;
+			productName = Teste_Laila_MadeinTests;
+			productReference = C94F409826C98F1A00AD2B97 /* Teste_Laila_MadeinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,6 +259,10 @@
 				TargetAttributes = {
 					C94F405C26C6DC4B00AD2B97 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					C94F409726C98F1A00AD2B97 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C94F405C26C6DC4B00AD2B97;
 					};
 				};
 			};
@@ -203,6 +280,7 @@
 			projectRoot = "";
 			targets = (
 				C94F405C26C6DC4B00AD2B97 /* Teste_Laila_Madein */,
+				C94F409726C98F1A00AD2B97 /* Teste_Laila_MadeinTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +295,13 @@
 				C94F408126C80B3800AD2B97 /* apiKey.plist in Resources */,
 				C94F406A26C6DC4F00AD2B97 /* Assets.xcassets in Resources */,
 				C94F406826C6DC4B00AD2B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F409626C98F1A00AD2B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +328,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C94F409426C98F1A00AD2B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F40A526C9990E00AD2B97 /* DetailVCTests.swift in Sources */,
+				C94F40A926C99B6900AD2B97 /* VideoTableViewCellTests.swift in Sources */,
+				C94F40A326C9953C00AD2B97 /* SearchVCTests.swift in Sources */,
+				C94F409B26C98F1A00AD2B97 /* MainVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94F409E26C98F1A00AD2B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94F405C26C6DC4B00AD2B97 /* Teste_Laila_Madein */;
+			targetProxy = C94F409D26C98F1A00AD2B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C94F406626C6DC4B00AD2B97 /* Main.storyboard */ = {
@@ -419,6 +523,46 @@
 			};
 			name = Release;
 		};
+		C94F409F26C98F1A00AD2B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU7PDN3PT3;
+				INFOPLIST_FILE = Teste_Laila_MadeinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lailagh.Teste-Laila-MadeinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste_Laila_Madein.app/Teste_Laila_Madein";
+			};
+			name = Debug;
+		};
+		C94F40A026C98F1A00AD2B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU7PDN3PT3;
+				INFOPLIST_FILE = Teste_Laila_MadeinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lailagh.Teste-Laila-MadeinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste_Laila_Madein.app/Teste_Laila_Madein";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,6 +580,15 @@
 			buildConfigurations = (
 				C94F407226C6DC4F00AD2B97 /* Debug */,
 				C94F407326C6DC4F00AD2B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F40A126C98F1A00AD2B97 /* Build configuration list for PBXNativeTarget "Teste_Laila_MadeinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F409F26C98F1A00AD2B97 /* Debug */,
+				C94F40A026C98F1A00AD2B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
