@@ -27,7 +27,7 @@ class Alert {
         
         alert.view.addSubview(loadingIndicator)
         controller.present(alert, animated: true) {
-            sleep(2)
+            sleep(1)
         }
     }
     

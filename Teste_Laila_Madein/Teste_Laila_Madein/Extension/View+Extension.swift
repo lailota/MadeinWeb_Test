@@ -15,4 +15,5 @@ extension UIViewController {
         self.navigationItem.titleView?.contentMode = .scaleAspectFit
         
     }
+    
 }

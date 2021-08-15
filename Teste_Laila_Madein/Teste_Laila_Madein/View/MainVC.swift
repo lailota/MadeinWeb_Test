@@ -44,6 +44,7 @@ class MainVC: UIViewController {
         self.searchButton.isEnabled = false
         self.searchButton.alpha = 0.5
         self.navigationController?.navigationBar.isHidden = true
+        self.controller.clearArray()
     }
     
 }
@@ -64,31 +65,5 @@ extension MainVC: UITextFieldDelegate {
     }
     
 }
-
-
-
-    
-    //    @objc func backButton() {
-    //        let view = UIView()
-    //            let button = UIButton(type: .system)
-    //            button.setImage(UIImage(named: "voltar"), for: .normal)
-    //            button.setTitle("voltar", for: .normal)
-    //            button.addTarget(self, action: #selector(backButton), for: .touchUpInside)
-    //            button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: -10)
-    //            button.sizeToFit()
-    //            view.addSubview(button)
-    //            view.frame = button.bounds
-    //            navigationItem.leftBarButtonItem = UIBarButtonItem(customView: view)
-    //    }
-    //        let button = UIImage(named: "voltar")
-    //
-    //       // self.navigationItem.backBarButtonItem?.image = button
-    //        self.navigationController?.navigationBar.backIndicatorImage = button
-    //        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = button
-    // self.navigationController?.navigationBar.backItem?.title = "voltar"
-    //self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "voltar", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
-    // self.navigationItem.backButtonTitle = "voltar"
-    //   }
-
 
 

@@ -22,6 +22,10 @@
 		C94F408126C80B3800AD2B97 /* apiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = C94F408026C80B3800AD2B97 /* apiKey.plist */; };
 		C94F408326C80B8400AD2B97 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408226C80B8400AD2B97 /* ApiKey.swift */; };
 		C94F408526C80E0400AD2B97 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408426C80E0400AD2B97 /* Alert+Extension.swift */; };
+		C94F408C26C81F8700AD2B97 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408B26C81F8600AD2B97 /* DetailVC.swift */; };
+		C94F408E26C83F4800AD2B97 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F408D26C83F4800AD2B97 /* CacheManager.swift */; };
+		C94F409126C840B800AD2B97 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F409026C840B800AD2B97 /* WebKit.framework */; };
+		C94F409326C857C300AD2B97 /* SelectedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F409226C857C300AD2B97 /* SelectedVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		C94F408026C80B3800AD2B97 /* apiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apiKey.plist; sourceTree = "<group>"; };
 		C94F408226C80B8400AD2B97 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 		C94F408426C80E0400AD2B97 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
+		C94F408B26C81F8600AD2B97 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C94F408D26C83F4800AD2B97 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		C94F409026C840B800AD2B97 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C94F409226C857C300AD2B97 /* SelectedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94F409126C840B800AD2B97 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,7 @@
 			children = (
 				C94F405F26C6DC4B00AD2B97 /* Teste_Laila_Madein */,
 				C94F405E26C6DC4B00AD2B97 /* Products */,
+				C94F408F26C840B700AD2B97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +96,7 @@
 				C94F406E26C6DC4F00AD2B97 /* Info.plist */,
 				C94F408026C80B3800AD2B97 /* apiKey.plist */,
 				C94F408226C80B8400AD2B97 /* ApiKey.swift */,
+				C94F408D26C83F4800AD2B97 /* CacheManager.swift */,
 			);
 			path = Teste_Laila_Madein;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 			children = (
 				C94F406426C6DC4B00AD2B97 /* MainVC.swift */,
 				C94F407426C6EA6500AD2B97 /* SearchVC.swift */,
+				C94F408B26C81F8600AD2B97 /* DetailVC.swift */,
 				C94F408726C80FFB00AD2B97 /* CustomCells */,
 			);
 			path = View;
@@ -113,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C94F407626C6FEDE00AD2B97 /* Video.swift */,
+				C94F409226C857C300AD2B97 /* SelectedVideo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +145,14 @@
 				C94F408426C80E0400AD2B97 /* Alert+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		C94F408F26C840B700AD2B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94F409026C840B800AD2B97 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +229,12 @@
 			files = (
 				C94F406526C6DC4B00AD2B97 /* MainVC.swift in Sources */,
 				C94F406126C6DC4B00AD2B97 /* AppDelegate.swift in Sources */,
+				C94F408C26C81F8700AD2B97 /* DetailVC.swift in Sources */,
 				C94F407F26C8088700AD2B97 /* View+Extension.swift in Sources */,
+				C94F408E26C83F4800AD2B97 /* CacheManager.swift in Sources */,
 				C94F407C26C7097F00AD2B97 /* VideoTableViewCell.swift in Sources */,
 				C94F407526C6EA6500AD2B97 /* SearchVC.swift in Sources */,
+				C94F409326C857C300AD2B97 /* SelectedVideo.swift in Sources */,
 				C94F406326C6DC4B00AD2B97 /* SceneDelegate.swift in Sources */,
 				C94F407926C6FF3D00AD2B97 /* MainController.swift in Sources */,
 				C94F408326C80B8400AD2B97 /* ApiKey.swift in Sources */,
