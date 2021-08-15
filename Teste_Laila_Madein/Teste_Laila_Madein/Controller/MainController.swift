@@ -70,7 +70,6 @@ class MainController {
                     
                     DispatchQueue.main.async {
                         self.videoArray.append(newData)
-                        print(self.videoArray.count)
                     }
                 }
                 DispatchQueue.main.async {
